@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROD. NOTE</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <div class="menu-icon"></div>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="mailto:aaron.rayford@hgs.hiddengeniusproject.org">Contact</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h1 class="main-title"><a href="index.html">PROD. NOTE</a></h1>
+            <div class="bunny-icon"><a href="player.html"><img src="bunny.png" alt="Bunny Icon"></a></div>
+        </div>
+    </div>
+    <audio id="backgroundwebfinal" loop>
+        <source src="backgroundwebfinal.wav" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <script>
+        window.onload = function() {
+            document.getElementById('backgroundwebfinal').play();
+        };
+    </script>
+</body>
+</html>

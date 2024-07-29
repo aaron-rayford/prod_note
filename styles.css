@@ -1,0 +1,119 @@
+<style>
+.production-note-container {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  font-size: 250px;
+  font-weight: 700;
+  justify-content: center;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  min-height: 1117px;
+  width: 1657px;
+  max-width: 100%;
+  align-items: center;
+  padding: 51px 60px 80px;
+}
+
+.background-image {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.text-container {
+  position: relative;
+  display: flex;
+  margin-bottom: 15px;
+  width: 740px;
+  max-width: 100%;
+  flex-direction: column;
+}
+
+.gradient-text {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-text-stroke: 10px #000;
+  font-family: Inika, sans-serif;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.73) 0%,
+    rgba(255, 0, 0, 0.73) 41%,
+    rgba(255, 214, 214, 0.73) 79%,
+    rgba(255, 216, 216, 0.73) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 10px solid #000;
+}
+
+.large-text {
+  font-size: 100px;
+}
+
+.small-text {
+  font-size: 20px;
+}
+
+.normal-weight {
+  font-weight: 400;
+}
+
+.footer-image {
+  aspect-ratio: 2.04;
+  object-fit: auto;
+  object-position: center;
+  width: 100%;
+  border-radius: 180px;
+  margin-top: 269px;
+}
+
+@media (max-width: 991px) {
+  .production-note-container {
+    padding-right: 20px;
+    font-size: 40px;
+  }
+
+  .content-wrapper {
+    margin-right: 10px;
+    font-size: 40px;
+    padding: 0 20px;
+  }
+
+  .text-container {
+    font-size: 40px;
+  }
+
+  .gradient-text {
+    max-width: 100%;
+    font-size: 40px;
+  }
+
+  .footer-image {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}
+</style>
+
+<section class="production-note-container">
+  <div class="content-wrapper">
+    <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/9078dd1c1e9e78c4089551fd7eb6a9221c8bf8b2072114f9c2d711ba8228a74e?apiKey=2da8d062815841e48dbd927f5118fbd5&&apiKey=2da8d062815841e48dbd927f5118fbd5" class="background-image" alt="" />
+    <div class="text-container">
+      <div class="gradient-text">
+        <span class="large-text">PROD. NOTE</span>
+        <span class="small-text">2024</span>
+        <span class="small-text normal-weight">©</span>
+      </div>
+      <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/01247a7c487364c50accc4b73f7df4935da82d86b0475d0fe754496e2cf2fec5?apiKey=2da8d062815841e48dbd927f5118fbd5&&apiKey=2da8d062815841e48dbd927f5118fbd5" class="footer-image" alt="Production note footer image" />
+    </div>
+  </div>
+</section>
